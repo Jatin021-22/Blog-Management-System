@@ -1,0 +1,55 @@
+/* Design tokens: every color, radius, shadow and blur used in the app lives here. */
+:root {
+  /* Background palette */
+  --bg-lavender: #c7b8ff;
+  --bg-sky: #a5d8ff;
+  --bg-peach: #ffd3b6;
+  --bg-mint: #b8f2e6;
+
+  /* Text */
+  --text: #2d2a4a;
+  --text-soft: #4d4a6b;
+
+  /* Accents (max 2): indigo + coral */
+  --accent: #5b45d6;
+  --accent-light: #8f7dff;
+  --accent-dark: #4633b3;
+  --danger: #d6455d;
+  --danger-light: #ff8fa0;
+  --danger-dark: #b0324a;
+  --success: #1f8f6a;
+
+  /* Glass */
+  --glass-bg: rgba(255, 255, 255, 0.35);
+  --glass-border: 1px solid rgba(255, 255, 255, 0.6);
+  --glass-blur: blur(16px) saturate(160%);
+  --glass-radius: 24px;
+  --glass-shadow: 0 8px 32px rgba(80, 70, 140, 0.15);
+
+  /* Clay */
+  --clay-radius: 18px;
+  --clay-radius-pill: 999px;
+  --clay-fill: linear-gradient(145deg, #f4efff, #e0d6ff);
+  --clay-shadow: 8px 8px 16px rgba(120, 100, 200, 0.25),
+                 -6px -6px 14px rgba(255, 255, 255, 0.8),
+                 inset 2px 2px 4px rgba(255, 255, 255, 0.7),
+                 inset -3px -3px 6px rgba(120, 100, 200, 0.2);
+  --clay-shadow-hover: 10px 12px 20px rgba(120, 100, 200, 0.3),
+                       -6px -6px 14px rgba(255, 255, 255, 0.85),
+                       inset 2px 2px 4px rgba(255, 255, 255, 0.7),
+                       inset -3px -3px 6px rgba(120, 100, 200, 0.2);
+  --clay-shadow-pressed: inset 4px 4px 8px rgba(90, 70, 180, 0.3),
+                         inset -4px -4px 8px rgba(255, 255, 255, 0.7);
+  --clay-shadow-sunken: inset 5px 5px 10px rgba(120, 100, 200, 0.22),
+                        inset -5px -5px 10px rgba(255, 255, 255, 0.85);
+  --focus-ring: 0 0 0 4px rgba(143, 125, 255, 0.45);
+
+  /* Spacing + motion */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2.5rem;
+  --transition: 200ms ease;
+
+  --font: 'Nunito', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
